@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Algerian';
+    src: url('Algerian Regular.ttf') format('truetype');
+}
+
+h1 {
+
+    font-style: italic;
+    color: rgb(34, 218, 255);
+    font-family: 'Algerian';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('img.webp');
+    background-size: cover;
+    background-position: center;
+}
